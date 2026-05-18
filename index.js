@@ -16,5 +16,5 @@ app.get('/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}, version 3`);
+  console.log(`Server running on port ${PORT}, version 4`);
 });
