@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from Node.js CI/CD Docker App 🚀',
+    message: 'Demo - V1',
     status: 'running',
     timestamp: new Date().toISOString()
   });
